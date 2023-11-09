@@ -11,6 +11,7 @@ test('test', async () => {
       block: 20471677, // the parent of the block we want to replay
       port: 8000,
       "runtime-log-level": 5,
+      'wasm-override': process.env.KUSAMA_WASM,
     },
     karura: {
       endpoint: 'wss://karura-rpc.aca-api.network',
