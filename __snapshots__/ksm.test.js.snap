@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`test > system events 1`] = `
+[
+  {
+    "data": {
+      "outcome": {
+        "Incomplete": [
+          {
+            "proofSize": "(rounded 6200)",
+            "refTime": "(rounded 630000000)",
+          },
+          "Unroutable",
+        ],
+      },
+    },
+    "method": "Attempted",
+    "section": "xcmPallet",
+  },
+]
+`;
+
+exports[`test > system events 2`] = `
+[
+  {
+    "data": {
+      "dispatchInfo": {
+        "class": "Mandatory",
+        "paysFee": "Yes",
+        "weight": {
+          "proofSize": "(rounded 1500)",
+          "refTime": "(rounded 280000000)",
+        },
+      },
+    },
+    "method": "ExtrinsicSuccess",
+    "section": "system",
+  },
+  {
+    "data": {
+      "dispatchInfo": {
+        "class": "Mandatory",
+        "paysFee": "No",
+        "weight": {
+          "proofSize": 0,
+          "refTime": "(rounded 120000000)",
+        },
+      },
+    },
+    "method": "ExtrinsicSuccess",
+    "section": "system",
+  },
+]
+`;

@@ -1,0 +1,12 @@
+{
+  "name": "chopsticks-ksm-xcm",
+  "packageManager": "yarn@3.4.1",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@acala-network/chopsticks-testing": "^0.9.2-2",
+    "vitest": "^0.34.0"
+  }
+}
